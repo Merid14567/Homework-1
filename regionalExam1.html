@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nom complet :</label>
+        <input type="text" id="name" name="patientFullName"><br><br>
+        
+        <label for="phonenumber">Numéro de téléphone :</label>
+        <input type="text" id="phonenumber" name="patientPhoneNumber"><br><br>
+
+        <label for="daterdv">Date du rendez-vous :</label>
+        <input type="date" id="daterdv" name="rendez-vousDate"><br><br>
+
+        <label for="specialité">Spécialité :</label>
+        <select id="specialité">
+            <option value="">-----select-----</option>
+        </select><br><br>
+        <input type="search" id="searchbar">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nom complet</th>
+                    <th>numero telephone</th>
+                    <th>date rendev</th>
+                    <th>specialite</th>
+                    <th>delete</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <button id="submitButton" type="button">Ajoutez le rendez-vous</button><br><br>
+    </form>
+    <script src="regionalExam1.js"></script>
+</body>
+</html>
