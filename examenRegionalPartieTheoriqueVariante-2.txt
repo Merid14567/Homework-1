@@ -1,0 +1,31 @@
+Question 1:
+
+a) var a une portee globale, let a une portee de bloc
+
+Question 2:
+
+b) array[index]
+
+Question 3:
+
+c) map
+
+Question 4:
+
+c) Elle execute une fonction une seule fois apres un delai
+
+Question 5:
+
+b) cree et ajoute un paragraphe avec le texte "Hello, World!" dans le corps du document.
+
+Question 6:
+
+a) oui l'expression est valide
+
+Question 7:
+
+a) $("[attribute='value']")
+
+Question 8:
+
+b) onload

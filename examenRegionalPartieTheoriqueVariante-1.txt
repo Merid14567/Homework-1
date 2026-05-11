@@ -1,0 +1,32 @@
+Question 1:
+
+a) let
+
+Question 2:
+
+b) array.push(element)
+
+Question 3:
+
+b) Elle cree un nouveau tableau avec des elements filtres
+
+Question 4:
+
+c) 4 chiffres
+
+Question 5:
+
+b) Remplace le texte de tous les elements avec la class 'item'
+
+Question 6:
+
+b) Non (but honestly teacher i'm not sure on this one cause it's not
+clear whether they Added space or not Inside the brackets [A-Z])
+
+Question 7:
+
+a) $(".example:contains('jQuery')")
+
+Question 8:
+
+a) readyState
