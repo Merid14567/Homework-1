@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>une page html</title>
+    </head>
+    <body>
+        <h2><u>Informations d'inscription</u></h2>
+
+        <form>
+            <label for="nom">Nom :</label>
+            <input id="nom" type="text" name="userLastName"><br><br>
+
+            <label for="prenom">Prenom :</label>
+            <input id="prenom" type="text" name="userFirstName"><br><br>
+
+            <label for="age">Age :</label>
+            <input id="age" type="number" name="userAge"><br><br>
+
+            <label for="email">Email :</label>
+            <input id="email" type="email" name="userEmail"><br><br>
+
+            <label for="phonenumber">Telephone :<b>(212+)</b></label>
+            <input id="phonenumber" type="text" name="userPhoneNumber"><br><br>
+
+            <label for="motDePasse">Mot de passe :</label>
+            <input id="motDePasse" type="password" name="userPassword"><br><br>
+
+            <label for="confirmationMotDePasse">Mot de passe(confirmation)</label>
+            <input id="confirmationMotDePasse" type="password" name="userConfirmedPass"><br><br>
+
+            <label>Sexe :</label>
+            <input type="radio" name="sexe" id="M">
+            <label for="M">Masculin</label>
+            <input type="radio" name="sexe" id="F">
+            <label for="F">Feminin</label><br><br>
+
+            <label for="ville">Ville :</label>
+            <select name="selection" id="selecting">
+                <option value="">---Votre ville---</option>
+                <option value="casa">Casa</option>
+                <option value="rabat">Rabat</option>
+            </select><br><br>
+
+            <button type="button" id="validation">Valider</button>
+            <button type="button" id="reinitialisation">Reinitialiser</button>
+        </form>
+        <script src="EFM-JS-2023-06-01-exercise2.js"></script>
+</html>
