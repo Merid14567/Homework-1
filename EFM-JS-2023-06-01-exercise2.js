@@ -14,6 +14,8 @@ const confirmPassword = automate("confirmationMotDePasse");
 
 const selected = automate("selecting");
 
+const script = document.querySelector("script");
+
 function automate(id) {
     return document.getElementById(id);
 }
@@ -71,6 +73,22 @@ function verifier_donees() {
 
 const validationButton = automate("validation");
 
-console.log(validationButton);
+validationButton.addEventListener("click", valider);
 
-validationButton.addEventListener("click", verifier_donees);
+function valider() {
+    const radio = document.querySelector('input[name="sexe"]:checked');
+    let validation = verifier_donees();
+    let content = "";
+    let unorderedList = document.createElement("ul");
+    if (validation) {
+        content = `<li><b>Nom complet :</b>${lastName.value} ${firstName.value}</li>
+                   <li><b>Age :</b>${age.value}</li>
+                   <li><b>E-mail :</b>${email.value}</li>
+                   <li><b>Telephone :</b>${phoneNumber.value}</li>
+                   <li><b>Mote de pass:</b>${password.value}</li>
+                   <li><b>Sexe :</b>${radio.value}</li>
+                   <li><b>Ville :</b>${selected.value}</li>`
+    }
+    unorderedList.innerHTML = content;
+    document.body.insertBefore(unorderedList, script);
+}
